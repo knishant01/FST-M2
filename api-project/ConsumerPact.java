@@ -63,9 +63,9 @@ public class ConsumerPact {
 
             Map<String, Object> map = new HashMap<String, Object>();
             map.put("id", 1);
-            map.put("firstName", "Shubhangi");
-            map.put("lastName", "Sable");
-            map.put("email", "shubhsable@mail.com");
+            map.put("firstName", "Nishant");
+            map.put("lastName", "Kumar");
+            map.put("email", "nishantkumar@gmail.com");
 
             //Response
             Response response = rq.body(map).post(createUser);
